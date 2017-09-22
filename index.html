@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web Speech API Demo</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Web Speech API Demo (Chinese Traditional)</h1>
+<div class="start">開始收音</div>
+<div class="content">你說的內容是：<span class="speech"></span><span class="blinking"></span></div>
+<script  src="js/index.js"></script>
+<form action="data.php" method="get" name='form' id='form'>
+  輸入代號：
+  <input type='text' name='name' id='name' />
+  <input type='button' name='submit' value='送出' onclick='processFormData();' />
+</form>
+</body>
+</html>
