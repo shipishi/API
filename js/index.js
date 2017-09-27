@@ -12,8 +12,7 @@ recognition.interimResults = true;
 
 recognition.onresult = function(event) {
   var result = event.results[event.results.length - 1];
-  $show.text(result);
-  //text.innerHTML = result[result.length - 1 ].transcript;
+  text.innerHTML = result[result.length - 1 ].transcript;
 }
 
 // speech error handling
