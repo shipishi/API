@@ -5,7 +5,7 @@ var recognition = new webkitSpeechRecognition();
 // set params
 recognition.continuous = false;
 recognition.lang = 'zh-TW';
-//recognition.interimResults = true;
+recognition.interimResults = true;
 
 // start immediately
 // recognition.start();
