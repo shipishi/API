@@ -13,6 +13,7 @@ recognition.interimResults = true;
 recognition.onresult = function(event) {
   var result = event.results[event.results.length - 1];
   text.innerHTML = result[result.length - 1 ].transcript;
+  name.innerHTML = text.innerHTML;
 }
 
 // speech error handling
