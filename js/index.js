@@ -1,5 +1,4 @@
 var text = document.querySelector(".speech");
-var newelement = document.querySelector(".new");
 var startBtn = document.querySelector(".start");
 
 var recognition = new webkitSpeechRecognition();
