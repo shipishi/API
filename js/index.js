@@ -33,7 +33,8 @@ startBtn.addEventListener("click", function() {
 })
 
 function processFormData() {
-  var name_element = document.getElementById('name');
-  var name = name_element.value;
-  alert('你的代號是'+name);
+  var name_element = document.getElementById('name').value;
+  document.getElementById("newname").innerHTML=name_element;
+  //var name = name_element.value;
+  //alert('你的代號是'+name);
 }
